@@ -10,9 +10,9 @@ namespace FaceRecogniser
 		// thanks Cicada
 		static void Main(string[] args)
 		{
-			string cascadesDirPath = args[1];
-			string sourcePicturePath = args[2];
-			string resultPicturePath = args.ElementAtOrDefault(3) ?? "result.png";
+			string cascadesDirPath = args[0];
+			string sourcePicturePath = args[1];
+			string resultPicturePath = args.ElementAtOrDefault(2) ?? "result.png";
 			using(var recogniser = new FaceRecogniser(cascadesDirPath))
 			{
 				using(var image = Image.FromFile(sourcePicturePath))

@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceRecogniser", "FaceRecogniser\FaceRecogniser.csproj", "{99F99841-A152-44C6-B69C-E6DB4DB35143}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceRecogniserLib", "FaceRecogniserLib\FaceRecogniserLib.csproj", "{3B5D0DA3-F73B-4DAC-BDBC-01239F63D703}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{99F99841-A152-44C6-B69C-E6DB4DB35143}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99F99841-A152-44C6-B69C-E6DB4DB35143}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99F99841-A152-44C6-B69C-E6DB4DB35143}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3B5D0DA3-F73B-4DAC-BDBC-01239F63D703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3B5D0DA3-F73B-4DAC-BDBC-01239F63D703}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3B5D0DA3-F73B-4DAC-BDBC-01239F63D703}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3B5D0DA3-F73B-4DAC-BDBC-01239F63D703}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
